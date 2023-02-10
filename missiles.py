@@ -227,7 +227,7 @@ screen.blit(text, textRect)
 pygame.display.flip()
 #enter a username
 font = pygame.font.Font("freesansbold.ttf", 32)
-text = font.render("Enter your username in the console: ", True, (255, 255, 255))
+text = font.render(f"Your Score is {score}. User the terminal to add your self to the leaderboard", True, (255, 255, 255))
 textRect = text.get_rect()
 textRect.center = (400, 150)
 screen.blit(text, textRect)
