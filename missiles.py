@@ -243,7 +243,7 @@ screen.blit(text, textRect)
 pygame.display.flip()
 # save score
 with open("scores.txt", "a") as f:
-    f.write("\n"+username + " " + str(score) )
+    f.write("\n"+username + " | " + str(score) )
 
 # wait 3 seconds
 time.sleep(3)
